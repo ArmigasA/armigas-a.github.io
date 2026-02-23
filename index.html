@@ -1,9 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>ArmigasA</title>
+  <meta charset="UTF-8" />
+  <title>Armigas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: 'Acients';
+      src: url('Acients.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      background: #000000;
+      color: #ffffff;
+      font-family: 'Acients', system-ui, sans-serif;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .box {
+      max-width: 500px;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 35px;
+      opacity: 0.9;
+    }
+
+    a {
+      display: inline-block;
+      padding: 14px 40px;
+      background: #ff4d4d;
+      color: #000000;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 12px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(255,77,77,0.4);
+    }
+  </style>
 </head>
 <body>
-    <h1>Hola mundo 😎</h1>
-    <p>Este sitio está funcionando.</p>
+  <div class="box">
+    <h1>Armigas</h1>
+    <p>Estás por redirigirte al sitio web de Armigas.</p>
+    <a href="https://sites.google.com/view/armigas/inicio">¡VAMOS!</a>
+  </div>
 </body>
 </html>
